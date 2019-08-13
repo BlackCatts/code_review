@@ -10,8 +10,13 @@ class Sort {
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
     do {
-      System.out
-          .println("\n\n\n1.Bubble Sort\n2.Selection Sort\n3.Insertion Sort.\n4.Quick Sort.\n5.Merge Sort.\n6.Exit.");
+      System.out.println("\n\n\n");
+      System.out.println("1.Bubble Sort.");
+      System.out.println("2.Selection Sort.");
+      System.out.println("3.Insertion Sort.");
+      System.out.println("4.Quick Sort.");
+      System.out.println("5.Merge Sort.");
+      System.out.println("6.Exit.");
       
       try {
         selectedNum = Integer.parseInt(reader.readLine());
